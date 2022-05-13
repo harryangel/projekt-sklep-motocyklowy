@@ -1,0 +1,15 @@
+Kamil:
+- kaski
+- faktury
+- pracownicy
+- zamowienia
+- buty
+
+Dominik:
+- klienci
+- rekawice
+- akcesoria
+- zwroty i reklamacje
+- spodnie
+- kurtki
+
