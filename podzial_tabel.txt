@@ -6,7 +6,7 @@ Kamil:
 - buty
 
 Dominik:
-- klienci
+- klienci - GOTOWA - PLIK .sql wygenerowany
 - rekawice
 - akcesoria
 - zwroty i reklamacje
