@@ -1,15 +1,15 @@
 Kamil:
-- kaski (ID w bazie od 0 do 100)
+- kaski (ID w bazie od 1 do 99)
 - faktury
 - pracownicy
 - zamowienia
-- buty (ID w bazie od 100 do 200)
+- buty (ID w bazie od 100 do 199)
 
 Dominik:
 - klienci - GOTOWA - PLIK .sql wygenerowany
-- rekawice (ID w bazie od 200 do 300)
-- akcesoria (ID w bazie od 300 do 400)
+- rekawice (ID w bazie od 200 do 299)
+- akcesoria (ID w bazie od 300 do 399)
 - zwroty i reklamacje
-- spodnie (ID w bazie od 400 do 500)
-- kurtki (ID w bazie od 500 do 600)
+- spodnie (ID w bazie od 400 do 499)
+- kurtki (ID w bazie od 500 do 599)
 
