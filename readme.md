@@ -13,3 +13,5 @@ jak to zrobic i dam ci mozliwosc pushowania od razu do repozytorium bez
 potrzeby mojego akceptowania pull requesta. Ale to przegadamy jutro na
 spokojnie.
 -------------------------------------------------------------------------
+
+test
