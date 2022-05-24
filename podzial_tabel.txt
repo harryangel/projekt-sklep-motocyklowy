@@ -1,0 +1,15 @@
+Kamil:
+- kaski (ID w bazie od 1 do 500)
+- faktury
+- pracownicy
+- zamowienia
+- buty (ID w bazie od 501 do 1000)
+
+Dominik:
+- klienci - GOTOWA - PLIK .sql wygenerowany
+- rekawice (ID w bazie od 1001 do 1500) - GOTOWA - PLIK .sql wygenerowany
+- akcesoria (ID w bazie od 1501 do 2000) - GOTOWA - PLIK .sql wygenerowany
+- zwroty i reklamacje - GOTOWA - PLIK .sql wygenerowany
+- spodnie (ID w bazie od 2001 do 2500) - GOTOWA - PLIK .sql wygenerowany
+- kurtki (ID w bazie od 2501 do 3000) - GOTOWA - PLIK .sql wygenerowany
+
