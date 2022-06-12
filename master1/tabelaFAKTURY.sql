@@ -6,7 +6,7 @@ CREATE TABLE faktury (
     faktura_Waluta varchar(3) NOT NULL,
     /* EUR/USD/PLN/CHF/GBP */
     faktura_Kwota float NOT NULL,
-
+	klient_ID int NOT NULL,
 )
 /*
 INSERT INTO faktury VALUES('FS 2/2022', '25.05.2022r', '884-54-52-422', 'PLN', 199.99 );

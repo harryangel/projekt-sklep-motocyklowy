@@ -10,7 +10,7 @@ CREATE TABLE buty (
     czy_Wodoodporne varchar(3),
     /* tak/nie */
     produkt_Cena float NOT NULL,
-    produkt_Ilosc number NOT NULL,
+    produkt_Ilosc int NOT NULL,
     produkt_Rozmiar varchar(3) NOT NULL,
 
 );

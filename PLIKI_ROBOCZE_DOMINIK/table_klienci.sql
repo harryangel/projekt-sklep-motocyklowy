@@ -8,6 +8,7 @@ klient_Adres varchar(50) NOT NULL,
 klient_Miasto varchar (30) NOT NULL,
 kilent_Email varchar (30) NOT NULL,
 kilent_Telefon varchar (15),
+klient_kod_Pocztowy varchar (6) NOT NULL,
 );
 
 /* Tabela sama ustawia ID oraz date zalozenia karty przy wprowadzaniu nowego klienta do bazy

@@ -6,7 +6,7 @@ CREATE TABLE pracownicy (
     /* M lub K */
     pracownik_Data_Zatrudnienia DATE,
     pracownik_Stanowisko varchar(20),
-    pracownik_pensja number,
+    pracownik_pensja int,
 
 );
 
