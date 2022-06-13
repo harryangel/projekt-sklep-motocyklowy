@@ -9,8 +9,8 @@ CREATE TABLE faktury (
 	klient_ID int NOT NULL,
 )
 /*
-INSERT INTO faktury VALUES('FS 2/2022', '25.05.2022r', '884-54-52-422', 'PLN', 199.99 );
-INSERT INTO faktury VALUES('FS 3/2022', '25.05.2022r', '814-52-52-488', 'EUR', 15.99 );
+INSERT INTO faktury VALUES('FS 2/2022', '2022-05-22', '884-54-52-422', 'PLN', '199.99', '2');
+INSERT INTO faktury VALUES('FS 3/2022', '2022-05-25', '814-52-52-488', 'EUR', '15.99', '1' );
 */
 
 SELECT * from faktury;

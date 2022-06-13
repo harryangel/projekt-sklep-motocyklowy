@@ -16,9 +16,9 @@ klient_kod_Pocztowy varchar (6) NOT NULL,
 
 
  /*
-INSERT INTO klienci VALUES(default, 'Bartosz', 'Walaszek', 'Truskawowa 20', 'Olsztyn', 'email@email.com', '');
-INSERT INTO klienci VALUES(default, 'Marcin', 'Opałka', 'Wojska Polskiego 20/4', 'Bartoszyce', 'marcin@email.com', '500-000-000');
-INSERT INTO klienci VALUES(default, 'Sebastian', 'Egon', 'Dworcowa 8/12', 'Wrocław', 'egonix@email.com', '');
+INSERT INTO klienci VALUES(default, 'Bartosz', 'Walaszek', 'Truskawowa 20', 'Olsztyn', 'email@email.com', '', '00-000');
+INSERT INTO klienci VALUES(default, 'Marcin', 'Opałka', 'Wojska Polskiego 20/4', 'Bartoszyce', 'marcin@email.com', '500-000-000', '80-809');
+INSERT INTO klienci VALUES(default, 'Sebastian', 'Egon', 'Dworcowa 8/12', 'Wrocław', 'egonix@email.com', '', '99-999');
 */
 
 SELECT * from klienci;

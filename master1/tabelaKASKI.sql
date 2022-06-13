@@ -8,7 +8,7 @@ CREATE TABLE kaski (
     czy_z_Pinlockiem varchar(3) NOT NULL,
     /* tak/nie */
     produkt_Cena float NOT NULL,
-    produkt_Ilosc number NOT NULL,
+    produkt_Ilosc int NOT NULL,
     produkt_Rozmiar varchar(3) NOT NULL,
     /* S/M/L/XL/XXL*/
 

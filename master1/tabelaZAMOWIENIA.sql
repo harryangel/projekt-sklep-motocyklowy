@@ -1,9 +1,9 @@
 CREATE TABLE zamowienia (
     zamowienia_ID int PRIMARY KEY NOT NULL IDENTITY(1,1),
     klienci_ID int NOT NULL,
-    produkt_ID int NOT NULL,
-	produkt_ilosc int NOT NULL,
-    produkt_Cena float NOT NULL,
+	pracownicy_ID int NOT NULL,
+
+	
     
     
 
@@ -11,3 +11,9 @@ CREATE TABLE zamowienia (
 
 
 SELECT * from zamowienia;
+
+/*
+INSERT INTO zamowienia VALUES('1', '1');
+INSERT INTO zamowienia VALUES('2', '1');
+
+*/
