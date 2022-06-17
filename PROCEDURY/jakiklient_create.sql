@@ -1,11 +1,8 @@
-﻿create procedure daneklienta @faktura int
+﻿CREATE procedure [dbo].[jakiklient] @produkt int
 as
-select faktury.faktura_ID, klienci.klient_Imie, klienci.klient_Nazwisko, klienci.kilent_Email, klienci.klient_ID
+select klienci_ID, produkt_ID, zamowienia.zamowienia_ID
 from 
-faktury, klienci
-where faktury.klient_ID = klienci.klient_ID 
+zamowienia, szczegoly_Zamowien
+where zamowienia.zamowienia_ID = szczegoly_Zamowien.zamowienia_ID AND produkt_ID = @produkt
 
-
-/*
-procedura sprawdza dane klienta z danej faktury
-*/
+-- procedura pokazuje jacy klienci zamawiali dany produkt

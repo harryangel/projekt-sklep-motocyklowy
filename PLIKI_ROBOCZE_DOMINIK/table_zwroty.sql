@@ -11,12 +11,9 @@ komentarz varchar (250),
 
 /*Usuń komentarz poniżej, aby dodać przykładowe rekordy w tabeli*/
 
-
 /*
 INSERT INTO zwroty VALUES(1555, 'tak', 'tak', 1, 'spray jest przeterminowany');
 INSERT INTO zwroty VALUES(1218, 'nie', 'nie', 2, 'za duży rozmiar');
 */
-
-
 
 SELECT * from zwroty;

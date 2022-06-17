@@ -14,7 +14,7 @@ TRUNCATE TABLE szczegoly_Zamowien
 TRUNCATE TABLE zwroty
 TRUNCATE TABLE klienci
 
-/*INSERT INTO klienci VALUES(default, 'Bartosz', 'Walaszek', 'Truskawowa 20', 'Olsztyn', 'email@email.com', '', '00-000');
+INSERT INTO klienci VALUES(default, 'Bartosz', 'Walaszek', 'Truskawowa 20', 'Olsztyn', 'email@email.com', '', '00-000');
 INSERT INTO klienci VALUES(default, 'Marcin', 'Opałka', 'Wojska Polskiego 20/4', 'Bartoszyce', 'marcin@email.com', '500-000-000', '80-809');
 INSERT INTO klienci VALUES(default, 'Sebastian', 'Egon', 'Dworcowa 8/12', 'Wrocław', 'egonix@email.com', '', '99-999');
 INSERT INTO pracownicy VALUES('Kamil', 'Adaszewski', 'M', '2022-02-15', 'Współwłaściciel', 5000);
@@ -47,10 +47,9 @@ INSERT INTO rekawice VALUES('Axo', 'Hexa 2016 Neon', 'letnie', 'nie', 149, 1, 'X
 INSERT INTO spodnie VALUES('Course', 'Four Seasons 2.0 Jasnoszaro-Czarne', 'całoroczne', 'tak', 'tak', 759.99, 3, 'L');
 INSERT INTO spodnie VALUES('Richa', 'Airvent Evo Czarne', 'letnie', 'tak', 'nie', 929.99, 2, 'XL');
 INSERT INTO spodnie VALUES('Richa', 'Jeansy Classic Niebieskie', 'letnie', 'nie', 'nie', 758.99, 5, 'M');
-INSERT INTO zamowienia VALUES('1', '1');
-INSERT INTO zamowienia VALUES('2', '1');
+INSERT INTO zamowienia VALUES('1', '1', DEFAULT);
+INSERT INTO zamowienia VALUES('2', '1', DEFAULT);
 INSERT INTO szczegoly_Zamowien VALUES ('1', '1002', '1', '99');
 INSERT INTO szczegoly_Zamowien VALUES ('1', '1003', '2', '298');
 INSERT INTO zwroty VALUES(1555, 'tak', 'tak', 1, 'spray jest przeterminowany');
 INSERT INTO zwroty VALUES(1218, 'nie', 'nie', 2, 'za duży rozmiar');
-*/

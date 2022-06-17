@@ -1,12 +1,12 @@
 CREATE TABLE pracownicy (
     pracownicy_ID int PRIMARY KEY NOT NULL IDENTITY(1,1),
-    pracownik_Imie varchar (20),
-    pracownik_Nazwisko varchar(25),
-    pracownik_Płeć varchar(1),
+    pracownik_Imie varchar (20) NOT NULL,
+    pracownik_Nazwisko varchar(25) NOT NULL,
+    pracownik_Płeć varchar(1) NOT NULL,
     /* M lub K */
-    pracownik_Data_Zatrudnienia DATE,
-    pracownik_Stanowisko varchar(20),
-    pracownik_pensja int,
+    pracownik_Data_Zatrudnienia DATE NOT NULL,
+    pracownik_Stanowisko varchar(20) NOT NULL,
+    pracownik_pensja int NOT NULL,
 
 );
 
